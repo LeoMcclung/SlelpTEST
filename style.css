@@ -32,7 +32,7 @@
     align-items: center;
     margin-top: 10%;
   }
-  .info{
+  #info {
     height: 8rem;
     width: 8rem;
     background-color: #333;
@@ -45,7 +45,7 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
-  .info:hover {
+  #info:hover {
     box-shadow: 2px 2px 5px white;
   }
   .arrow{
@@ -155,7 +155,8 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: black;
+     opacity: .7; 
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -180,6 +181,11 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+#mySideNav {
+  width: 80vw;
+  height: auto;
 }
 
 }
