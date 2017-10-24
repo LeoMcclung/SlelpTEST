@@ -1,0 +1,74 @@
+html{
+    background-image: url('../images/Blue-Background-For-iPhone-5s-.jpg');
+}
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    margin-bottom: 0;
+}
+.s-logo {
+    color: #DD7016;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px white;
+    font-weight: bold;
+    margin: 0;
+}
+.header-title {
+    font-family:'Rokkitt', serif;
+    font-size: 30px;
+}
+.questionForm{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    margin: 15px;
+}
+.problemItems{
+    background-color: rgba(0, 0, 0, .4);
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    font-size: 15px;
+    margin: 15px;
+}
+.problemItems::placeholder{
+    color: white;
+}
+.problemDescription{
+    height: 40vh;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.problemLink{
+    height: 10vh;
+    margin: 5px;
+
+}
+.problemTitle{
+    height: 10vh;
+    margin: 5px;
+    
+}
+.problemSubmit{
+    height: 10vh;
+    margin: 5px;
+    border-radius: 14px;
+    background-color: #FFA159;
+    border: 1px solid #212121;
+    color: #0676A3;
+    font-size: 20px;
+    font-family:'Rokkitt', serif;
+}
+.copy{
+    color: white;
+    text-align: right;
+}
